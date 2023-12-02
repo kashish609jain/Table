@@ -1,4 +1,5 @@
-![image](https://github.com/kashish609jain/Table/assets/66458871/287e6e62-25bd-47e2-81ba-8c9ef9e0b2ab)
+![image](https://github.com/kashish609jain/Table/assets/66458871/14713e6c-bda3-40b2-8c29-431a28479183)
+
 
 ## Features
 
