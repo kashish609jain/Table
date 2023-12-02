@@ -9,6 +9,7 @@
 - **Row Selection:** Users can select one or more rows by clicking the checkboxes. Selected rows are highlighted with a grayish background color. Multiple selected rows can be deleted simultaneously using the "Delete Selected" button at the bottom left.
 - **Select/Deselect All:** The checkbox at the top left corner provides a shortcut to select or deselect all rows displayed on the current page. It applies only to the 10 rows visible in the current page, not to all the rows.
 
+
 ## Tech Stack
 
 The implementation of this user interface involves the following technologies:
@@ -18,6 +19,7 @@ The implementation of this user interface involves the following technologies:
 - JavaScript
 - React
 - Axios (for API communication)
+- material-ui
 
 
 ## Users API
