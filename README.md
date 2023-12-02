@@ -49,4 +49,4 @@ To retrieve the list of users and their properties, an API is provided. Here are
     "email": "arvind@mailinator.com",
     "role": "admin"
   }
-]# Table
+]
