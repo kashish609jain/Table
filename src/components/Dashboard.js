@@ -102,17 +102,15 @@ const Dashboard = () => {
 
   const search = (e) => {
     setSearchItem(e.target.value);
+    setCurrentPage(1); 
     debounceSearch(e, 500);
   };
-
   const handleDeleteUser = (userId) => {
     setLoading(true);
     setUser((prevUser) => prevUser.filter((user) => user.id !== userId));
     setLoading(false);
   };
   const handleUpdate = (userId, updatedUserData) => {
-    // Implement the logic to update the user data in your state
-    // This could involve updating an array of users or some other data structure
     setUser((prevUser) =>
       prevUser.map((user) =>
         user.id === userId ? { ...user, ...updatedUserData } : user
@@ -160,8 +158,8 @@ const Dashboard = () => {
   return (
     <>
     <Search searchQuery={search} />
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "2rem" }}>
-      <table style={{ marginBottom: "1rem" }}>
+    <div style={{ alignItems: "center" }}>
+      <table>
         <thead>
           <tr>
             <th>
@@ -201,13 +199,7 @@ const Dashboard = () => {
       </table>
       </div>
      
-        <div className="button-group" style={{ alignItems: "center"}}>
-          
-            <div className="delete-selected-button">
-                <button onClick={deleteMultiple} disabled={selectCheckbox.length === 0}>
-                  Delete Selected
-                </button>
-            </div>
+        <div className="button-group" >
           
           <button onClick={goToFirst} disabled={currentPage === 1}>
             {"<<"}
