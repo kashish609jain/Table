@@ -1,4 +1,3 @@
-![image](https://github.com/kashish609jain/Table/assets/66458871/bb4f8461-8330-4ede-a1de-42ffb62ff0e0)
 
 
 
